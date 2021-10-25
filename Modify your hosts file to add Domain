@@ -1,0 +1,49 @@
+Modify your hosts file to add Domain:
+-------------------------------------
+Reference - https://docs.rackspace.com/support/how-to/modify-your-hosts-file/
+
+Modifying the hosts file involves adding two entries to it. Each entry contains the IP address to which you want the site to resolve and a version of the Internet address. For example, add the following two entries points, www.domain.com and domain.com, to Rackspace’s current refreshed PHP5 (PHP5-ITK) cluster:
+
+64.49.219.194 www.domain.com
+64.49.219.194 domain.com
+
+Windows:
+--------
+If you are using a Microsoft operating system like Windows 10, Windows 8, Windows 7, and Windows Vista you must run Microsoft Notepad as an administrator.
+
+Windows 10 and Windows 8:
+-------------------------
+Use the following instructions if you’re running Windows 10 or Windows 8:
+
+1) Press the Windows key.
+
+2) Type Notepad in the search field.
+
+3) In the search results, right-click Notepad and select Run as administrator.
+
+4) From Notepad, open the following file:
+
+c:\Windows\System32\Drivers\etc\hosts
+
+5) Make the necessary changes to the file.
+
+6) Select File > Save to save your changes.
+
+
+Linux:
+------
+Use the following instructions if you’re running Linux:
+
+1) Open a Terminal window.
+
+2) Enter the following command to open the hosts file in a text editor:
+
+sudo nano /etc/hosts
+Enter your domain user password.
+
+3) Make the necessary changes to the file.
+
+4) Press Control-X.
+
+5) When you are asked if you want to save your changes, enter y.
+
